@@ -25,15 +25,13 @@ namespace Day01Helloworld
             static void Main(string[] args)
 
             {
-
                 Console.Write("what is your name?");
-
-                string name = Console.ReadLine();
-
-                Console.WriteLine("Hello" + " " + name + "!");
-
+                string name =Console.ReadLine();
+                Console.Write("what is your Age?");
+                int age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Hello" + " " + name + "!" + "Your Age is: " + age);
+                //Console.WriteLine("Name is :{0} /t Age is: {1}",name,age);
                 Console.ReadKey();
-
             }
 
         }
